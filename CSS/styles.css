@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+}
+.collage{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;    
+    gap: 35px;
+}
+.image{
+    width: 230px;
+    aspect-ratio: 1/1;
+    border: 1px rgb(25, 25, 29) solid;
+    border-radius: 10px;
+}
